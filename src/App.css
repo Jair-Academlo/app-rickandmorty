@@ -1,38 +1,60 @@
-.App {
+
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: black;
+color: silver;
+display: flexbox;
+
+}
+
+.image {
+
+  background-image: url("https://wallpapercave.com/wp/wp5475030.jpg");
+  background-size: 100%;
+  height: 220px;
+  background-position: 45% 35%;
+}
+
+.h1 {
+
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  padding: 2%;
+  margin: 0 30%;
+  background-color: ghostwhite;
+  box-shadow: 2px 2px 8px;
+  width: 40%;
+  height: 30px;
+  color: blueviolet;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text{
+ padding: 30px;
+ text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.typeCard {
+
+  color: blueviolet;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.resident {
+
+  color: darksalmon;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  padding: 15px;
+  margin: 0;
+  position: relative;
 }

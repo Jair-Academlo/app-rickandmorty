@@ -1,0 +1,46 @@
+
+.target {
+
+   text-align: center;
+   
+}
+
+.image1{
+
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px violet;
+}
+.h41{
+    padding: 10px;
+    color: darkmagenta;
+}
+
+.a{
+    padding: 10px;
+    color: darkcyan;
+}
+
+.b{
+    padding-bottom: 20px;
+    color: greenyellow;
+}
+.information {
+
+    color: yellow;
+    padding: 10px;
+}
+
+.Origin {
+    color: aqua;
+    padding: 10px;
+}
+
+.Episodes{
+    color: brown;
+    padding: 10px;
+}
+
+
+
+
+
